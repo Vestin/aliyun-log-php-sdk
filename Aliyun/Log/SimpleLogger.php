@@ -55,7 +55,7 @@ class Aliyun_Log_SimpleLogger{
 
     /**
      * log client which was wrappered by this logger
-     * @var log
+     * @var Aliyun_Log
      */
     private $client;
 
@@ -73,7 +73,7 @@ class Aliyun_Log_SimpleLogger{
 
     /**
      * Aliyun_Log_Models_LogBatch constructor.
-     * @param $client log client
+     * @param $client Aliyun_Log client
      * @param $project the corresponding project
      * @param $logstore the logstore
      * @param $topic
